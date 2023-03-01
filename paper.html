@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PapercSS</title>
+    <link rel="stylesheet" href="assets/css/paper.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="border fixed split-nav">
+            <div class="nav-brand">
+              <h3><a href="#">Get PaperCSS</a></h3>
+            </div>
+            <div class="collapsible">
+              <input id="collapsible1" type="checkbox" name="collapsible1">
+              <label for="collapsible1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </label>
+              <div class="collapsible-body">
+                <ul class="inline">
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Github</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main class="paralax">
+        <div class="container">
+            <div class="alert-block">
+                <div class="row flex-spaces">
+                    <input class="alert-state" id="alert-1" type="checkbox">
+                    <div class="alert alert-primary dismissible">
+                      Alert-primary
+                      <label class="btn-close" for="alert-1">X</label>
+                    </div>
+                    <input class="alert-state" id="alert-2" type="checkbox">
+                    <div class="alert alert-secondary dismissible">
+                      Alert-secondary
+                      <label class="btn-close" for="alert-2">X</label>
+                    </div>
+                    <input class="alert-state" id="alert-3" type="checkbox">
+                    <div class="alert alert-success dismissible">
+                      Alert-success
+                      <label class="btn-close" for="alert-3">X</label>
+                    </div>
+                    <input class="alert-state" id="alert-4" type="checkbox">
+                    <div class="alert alert-warning dismissible">
+                      Alert-warning
+                      <label class="btn-close" for="alert-4">X</label>
+                    </div>
+                    <input class="alert-state" id="alert-5" type="checkbox">
+                    <div class="alert alert-danger dismissible">
+                      Alert-danger
+                      <label class="btn-close" for="alert-5">X</label>
+                    </div>
+                </div>
+            </div>
+            <div class="butn-block paper container-xs">
+                <input type="button" class="paper-btn btn-primary-outline" value="Primary"/>
+                <input type="button" class="btn-secondary-outline" value="Secondary"/>
+                <button class="btn-success-outline">Success</button>
+                <button class="btn-warning-outline">Warning</button>
+                <a href="#" class="paper-btn btn-danger-outline">Danger</a>
+            </div>
+            <div class="card-block paper container-md">
+                <div data-aos="flip-left" class="card first-card" style="width: 20rem;">
+                    <img src="https://picsum.photos/768" alt="Card example image">
+                    <div class="card-body">
+                      <h4 class="card-title">My awesome Paper card!</h4>
+                      <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                      <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+                      <button>Let me go here!</button>
+                    </div>
+                </div>
+                <div class="card-block-second">
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-delay="300" class="card card-second" style="width: 20rem;">
+                        <div class="card-body">
+                          <h4 class="card-title">My awesome Paper card!</h4>
+                          <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                          <p class="card-text">This is another example of a card without image. Cards are also meant to be used without images, but with text/links/buttons.</p>
+                          <a class="card-link" href="#">First link</a>
+                          <a class="card-link" href="#">Second link</a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" data-aos-delay="300" class="card card-second" style="width: 20rem;">
+                        <div class="card-body ">
+                          <h4 class="card-title">My awesome Paper card!</h4>
+                          <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                          <p class="card-text">This is another example of a card without image. Cards are also meant to be used without images, but with text/links/buttons.</p>
+                          <a class="card-link" href="#">First link</a>
+                          <a class="card-link" href="#">Second link</a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="1500" data-aos-delay="300" class="card card-second" style="width: 20rem;">
+                        <div class="card-body">
+                          <h4 class="card-title">My awesome Paper card!</h4>
+                          <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                          <p class="card-text">This is another example of a card without image. Cards are also meant to be used without images, but with text/links/buttons.</p>
+                          <a class="card-link" href="#">First link</a>
+                          <a class="card-link" href="#">Second link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-offset="300" data-aos-duration="700" data-aos-delay="300"class="modal-block">
+                <div class="row flex-spaces child-borders">
+                    <label class="paper-btn margin" for="modal-1">Open Modal!</label>
+                  </div>
+                  <input class="modal-state" id="modal-1" type="checkbox">
+                  <div class="modal">
+                    <label class="modal-bg" for="modal-1"></label>
+                    <div class="modal-body">
+                      <label class="btn-close" for="modal-1">X</label>
+                      <h4 class="modal-title">Modal Title</h4>
+                      <h5 class="modal-subtitle">Modal Subtitle</h5>
+                      <p class="modal-text">This is an example of modal which is implemented with pure CSS! :D</p>
+                      <label for="modal-1">Nice!</label>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-block paper container-sm">
+                <div class="row flex-spaces tabs">
+                    <input id="tab1" type="radio" name="tabs" checked>
+                    <label for="tab1">Tab 1</label>
+                  
+                    <input id="tab2" type="radio" name="tabs">
+                    <label for="tab2">Tab 2</label>
+                  
+                    <input id="tab3" type="radio" name="tabs">
+                    <label for="tab3">Tab 3</label>
+                  
+                    <input id="tab4" type="radio" name="tabs">
+                    <label for="tab4">Tab 4</label>
+                  
+                    <div class="content" id="content1">
+                      <p>
+                        Bacon ipsum dolor sit amet beef venison beef ribs kielbasa Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, iste sint, illo commodi excepturi corporis cum temporibus nesciunt magnam expedita itaque vero, dolorum autem quam voluptatum at natus rerum sit!...
+                      </p>
+                      <p>
+                        Brisket meatball turkey short loin boudin leberkas meatloaf Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, qui?...
+                      </p>
+                    </div>
+                    <div class="content" id="content2">
+                      <p>
+                        Bacon ipsum dolor sit amet landjaeger sausage brisket Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, nulla....
+                      </p>
+                    </div>
+                    <div class="content" id="content3">
+                      <p>
+                        Bacon ipsum dolor sit amet beef venison beef ribs kielbasa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ipsam animi fugiat pariatur excepturi possimus doloremque earum expedita iusto. Pariatur sint qui quasi blanditiis neque!...
+                      </p>
+                      <p>
+                        Brisket meatball turkey short loin boudin leberkas meatloaf Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto aspernatur laudantium dignissimos adipisci, sapiente asperiores....
+                      </p>
+                    </div>
+                    <div class="content" id="content4">
+                      <p>
+                        Bacon ipsum dolor sit amet landjaeger sausage brisket Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, repellendus! Sequi deleniti aliquid mollitia omnis, velit voluptate modi placeat numquam officiis fugit minima sint libero....
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-offset="300" data-aos-duration="1500" data-aos-delay="300"class="img-float paper container-sm">
+                <p>
+                    <img src="https://unsplash.it/200" class="float-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro illo officiis sapiente magni quod amet, asperiores esse, nisi, quaerat repudiandae. Minima repellat suscipit maiores possimus ab dignissimos eligendi quae id enim praesentium cumque qui fugiat voluptatum maxime error asperiores numquam debitis eaque consequatur nobis libero, repellendus ipsam! Quis nesciunt excepturi, accusantium neque mollitia dolore nemo aut rerum voluptas magnam optio quod error necessitatibus ipsum sunt odio suscipit sit magni. Ratione expedita porro, commodi atque voluptatem consequatur maxime mollitia ipsam ex magnam quis non iste, fuga ipsa? Numquam expedita velit, illo repudiandae voluptatem cumque. Odit pariatur recusandae architecto totam quam?
+                    <img src="https://unsplash.it/100" class="float-right">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio doloremque, accusamus, quos sint aspernatur nostrum, neque enim dolorem alias quibusdam? Sed tempora unde accusamus magni amet modi sapiente nemo adipisci? Tenetur est quo deserunt a obcaecati. Doloremque tempora reiciendis asperiores accusamus architecto ipsam perferendis, accusantium quasi omnis velit ducimus?
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
